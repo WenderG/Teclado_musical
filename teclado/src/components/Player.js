@@ -1,5 +1,5 @@
 import SoundFontPlayer from "soundfont-player";
-import AudioContext from "./AudioContext";
+import AudioContext from "./Audio";
 
 const stop = {
     stop() {}
@@ -7,11 +7,11 @@ const stop = {
 
 const tocar = {
     play() {
-        return tocar
+        return stop
     }
 }
 
-const audioPlayer  = () => {
+const Player  = () => {
     const audio = AudioContext && new AudioContext()
 
     let soundPlayer = tocar
@@ -25,7 +25,7 @@ const audioPlayer  = () => {
             .catch(evento => {
                 soundPlayer = tocar
             })
-        }
+        },
         playNote(note) {
             soundPlayer.play(note)
         }
