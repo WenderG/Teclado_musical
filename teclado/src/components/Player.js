@@ -26,8 +26,8 @@ const Player  = () => {
                 soundPlayer = tocar
             })
         },
-        playNote(note) {
-            soundPlayer.play(note)
+        playNote(nota) {
+            soundPlayer.play(nota)
         }
     }
     return player

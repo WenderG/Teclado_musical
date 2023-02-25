@@ -1,7 +1,7 @@
-import NOTES from "../constants/note";
+import tons from "./Notas";
 
 export default function NotasEntreladas(startNote, endNote) {
-  const startingIndex = NOTES.indexOf(startNote);
-  const endingIndex = NOTES.indexOf(endNote);
-  return NOTES.slice(startingIndex, endingIndex + 1);
+  const startingIndex = tons.indexOf(startNote);
+  const endingIndex = tons.indexOf(endNote);
+  return tons.slice(startingIndex, endingIndex + 1);
 }
