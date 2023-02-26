@@ -14,5 +14,5 @@ Projeto criado para o aprendizado de React, nele, o usuário poderá tocar músi
 [X] Definir eventos de teclado <br>
 [X] Criar o layout de efeitos <br>
 [] Alternar efeitos de áudio <br>
-[] Revisão geral dos arquivos <br>
-[] Edição final do README <br>
+[x] Revisão geral dos arquivos <br>
+[x Edição final do README <br>
