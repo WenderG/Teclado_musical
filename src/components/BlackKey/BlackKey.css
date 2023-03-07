@@ -1,0 +1,27 @@
+.piano-black-keys {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -83%);
+  z-index: 1;
+}
+
+.black-key {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  padding-bottom: .6rem;
+
+  width: 4rem;
+  height: 12rem;
+
+  color: white;
+  font-size: 1.5rem;
+  background-color: black;
+  border-radius: 0 0 .6rem .6rem;
+}
+
+.black-key:nth-of-type(3) {
+  visibility: hidden;
+}
