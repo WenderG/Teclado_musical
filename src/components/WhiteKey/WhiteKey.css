@@ -1,0 +1,28 @@
+.piano-white-keys {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  padding: 1rem;
+  background-color: black;
+  border-radius: 0 0 .6rem .6rem;
+
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.white-key {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  padding-bottom: .6rem;
+
+  width: 6rem;
+  height: 20rem;
+  font-size: 1.5rem;
+  background-color: #f0f0f0;
+
+  border: .1rem solid rgb(207, 207, 207);
+  border-radius: 0 0 .6rem .6rem;
+}
