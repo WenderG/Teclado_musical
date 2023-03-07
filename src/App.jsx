@@ -1,6 +1,12 @@
+import { WhiteKey } from './components/WhiteKey/WhiteKey'
+import { BlackKey } from './components/BlackKey/BlackKey'
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <WhiteKey />
+      <BlackKey />
+    </>
   )
 }
 
