@@ -1,11 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap {
+  gap: 2rem;
 }
