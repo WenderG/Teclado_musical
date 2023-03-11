@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tone": "^14.8.49"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
